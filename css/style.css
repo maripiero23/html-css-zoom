@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.total-container{
+    height: 100vh;
+    background-color: rgba(0,0,0,255);
+}
+
+.top-nav{
+    text-align: right;
+    padding: .5rem;
+}
