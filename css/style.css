@@ -13,11 +13,14 @@
 .top-nav{
     text-align: right;
     padding: .5rem;
-    background-color: red;
+    background-color: red; /*da togliere dopo*/
+    flex-shrink: 0;
 }
 
 .button-nav{
-    background-color: green;
+    background-color: green; /*da togliere dopo*/
+    flex-shrink: 0;
+
 }
 
 .button-nav button{
@@ -26,4 +29,23 @@
     color: white;
     padding: .5rem;
     line-height: 4rem; /*imposto un altezza finchè non metto le icone*/
+}
+
+.main-container{
+    flex-grow: 1;
+}
+
+.total-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.centre-container{
+    padding: 1rem;
+    background-color: rgb(124, 51, 62);
+    /*per limitare la larghezza di questo contenitore:*/
+    margin: 20px 5vw;
+    /*max-width: 920px; un'alta possibilità per limitare la width*/
+    /*width: 90%; un'alta possibilità per limitare la width*/
+
 }
