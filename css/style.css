@@ -13,4 +13,17 @@
 .top-nav{
     text-align: right;
     padding: .5rem;
+    background-color: red;
+}
+
+.button-nav{
+    background-color: green;
+}
+
+.button-nav button{
+    border: 0;
+    background-color: transparent;
+    color: white;
+    padding: .5rem;
+    line-height: 4rem; /*imposto un altezza finchè non metto le icone*/
 }
