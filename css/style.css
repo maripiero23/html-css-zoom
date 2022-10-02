@@ -18,7 +18,7 @@
 }
 
 .button-nav{
-    background-color: green; /*da togliere dopo*/
+    background-color: rgba(34,34,34,255); /*da togliere dopo*/
     flex-shrink: 0;
 
 }
@@ -47,5 +47,36 @@
     margin: 20px 5vw;
     /*max-width: 920px; un'alta possibilità per limitare la width*/
     /*width: 90%; un'alta possibilità per limitare la width*/
+    display: flex;
+    flex-wrap: wrap;
+    /*gap: 0 5px;*/
+    height: calc(100% - 40px);/*per far allungare il contenuto*/
+} /*l'altezza meno il margine sopra e sotto che sono ciascuno 20px*/
 
+
+.card{
+    border: 4px solid transparent;
+    position: relative;
+    height: calc(100%/5);
+    flex-basis: calc(100%/7);
+}
+
+.card:hover{
+    background-color: yellow;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    display: block;/*per non avere lo spazio di 3px sotto l'img*/
+    object-fit: cover;
+
+}
+
+.user-name-container{
+    padding: .5rem;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
