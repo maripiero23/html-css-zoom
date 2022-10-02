@@ -13,7 +13,6 @@
 .top-nav{
     text-align: right;
     padding: .5rem;
-    background-color: red; /*da togliere dopo*/
     flex-shrink: 0;
 }
 
@@ -30,6 +29,23 @@
     padding: .5rem;
      /*imposto un altezza finchè non metto le icone*/
 }
+
+:root{
+    --paddin-dimension:10px;
+}
+
+:root{
+    --color-text:white; 
+}
+
+:root{
+    --centratura-testo: center;
+}
+
+:root{
+    --disp-flex: flex;
+}
+
 
 
 
@@ -70,6 +86,20 @@ button .mute{
     padding: 16px 0;
 }
 
+.camera-arrow-cont-flex{
+    display: var(--disp-flex);
+}
+
+.camera{
+    text-align: center;
+    padding-top: 8px;
+}
+
+.stop-text{
+    text-align: center;
+    padding-top: 8px;
+}
+
 
 /****************inizio main****************/
 
@@ -85,7 +115,6 @@ button .mute{
 
 .centre-container{
     padding: 1rem;
-    background-color: rgb(124, 51, 62);
     /*per limitare la larghezza di questo contenitore:*/
     margin: 20px 5vw;
     /*max-width: 920px; un'alta possibilità per limitare la width*/
