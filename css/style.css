@@ -18,7 +18,7 @@
 }
 
 .button-nav{
-    background-color: rgba(34,34,34,255); /*da togliere dopo*/
+    background-color: rgba(34,34,34,255); 
     flex-shrink: 0;
 
 }
@@ -29,6 +29,10 @@
     color: white;
     padding: .5rem;
     line-height: 4rem; /*imposto un altezza finchè non metto le icone*/
+}
+
+.parte-sx-flex{
+    display: flex;
 }
 
 .main-container{
