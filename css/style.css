@@ -146,9 +146,10 @@ button .mute{
 }
 
 .user-name-container{
-    padding: .5rem;
+    padding: .25rem;
     background-color: rgba(0, 0, 0, .5);
     position: absolute;
     bottom: 0;
     left: 0;
+    color: white;
 }
