@@ -28,12 +28,51 @@
     background-color: transparent;
     color: white;
     padding: .5rem;
-    line-height: 4rem; /*imposto un altezza finchè non metto le icone*/
+     /*imposto un altezza finchè non metto le icone*/
+}
+
+
+
+button .mute{
+    font-size: small;
 }
 
 .parte-sx-flex{
     display: flex;
 }
+
+
+
+.microfono {
+    text-align: center;
+    color: white;
+}
+
+.mute-text{
+    color: white; 
+}
+
+.micro-arrow-cont-flex{
+    display: flex;
+}
+
+.micro-mute-container{
+    padding: 10px;
+}
+
+.mute-text{
+    font-size: smaller;
+}
+
+.freccia-container{
+    color: white;
+    font-weight: bolder;
+    padding: 16px 0;
+}
+
+
+/****************inizio main****************/
+
 
 .main-container{
     flex-grow: 1;
